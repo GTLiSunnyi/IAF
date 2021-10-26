@@ -15,15 +15,14 @@ export default {
 <style scoped>
 #footer {
     width: 100%;
-    height: 30%;
+    height: 8rem;
     background-color: blue;
     color: white;
 }
 #title {
-    width: 70%;
     position: relative;
-    top: 23%;
-    left: 9%;
+    top: 1.5rem;
+    left: 10rem;
     font-size: 1.2rem;
     font-weight: 500;
 }
@@ -32,12 +31,12 @@ export default {
     font-size: 1rem;
     font-weight: 400;
     position: relative;
-    top: 29%;
-    left: 9%;
+    top: 1.7rem;
+    left: 10rem;
 }
 #band {
     position: relative;
-    bottom: -43%;
+    bottom: -3rem;
     text-align: center;
 }
 </style>

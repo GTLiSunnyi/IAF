@@ -17,39 +17,39 @@ export default {
 <style scoped>
 #page2 {
     width: 100%;
-    height: 100%;
+    height: 49rem;
     background-color: whitesmoke;
 }
 #title {
-    width: 70%;
     position: relative;
-    top: 30%;
-    left: 9%;
+    top: 16rem;
+    left: 7rem;
     font-size: 3rem;
     font-weight: 900;
     color: blue;
 }
 #txt1 {
-    width: 100%;
+    width: 43rem;
     font-size: 1.4rem;
     color: dimgray;
     position: relative;
-    top: 45%;
-    left: 9%;
+    top: 22rem;
+    left: 7rem;
 }
 #txt2 {
-    width: 100%;
+    width: 43rem;
     font-size: 1.4rem;
     color: dimgray;
     position: relative;
-    top: 55%;
-    left: 9%;
+    top: 25rem;
+    left: 7rem;
 }
 #img {
-    height: 64%;
-    width: 30%;
+    height: 20rem;
+    width: 30rem;
     background-color: bisque;
     position: relative;
-    left: 64%;
+    left: 58rem;
+    top: 5rem;
 }
 </style>

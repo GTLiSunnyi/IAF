@@ -17,16 +17,15 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 #page1 {
-    height: 100%;
+    height: 49rem;
     width: 100%;
-    background-color: cornflowerblue;
+    background-color: dodgerblue;
 }
 #title {
-    width: 70%;
     position: relative;
-    top: 30%;
-    left: 9%;
-    font-size: 3rem;
+    top: 10rem;
+    left: 7rem;
+    font-size: 3.5rem;
     font-weight: 900;
     color: white;
 }
@@ -35,24 +34,24 @@ export default {
     font-size: 1.4rem;
     color: white;
     position: relative;
-    top: 45%;
-    left: 9%;
+    top: 15rem;
+    left: 7rem;
 }
 button {
-    width: 7%;
-    height: 12%;
+    width: 9rem;
+    height: 5rem;
     border-color: white;
     color: cornflowerblue;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
-    border-radius: 5px; /* future proofing */
-    -khtml-border-radius: 5px; /* for old Konqueror browsers */
+    -moz-border-radius: .5rem;
+    -webkit-border-radius: .5rem;
+    border-radius: .5rem; /* future proofing */
+    -khtml-border-radius: .5rem; /* for old Konqueror browsers */
     vertical-align: middle;
     font-weight: 700;
-    font-size: 123%;
+    font-size: 1.7rem;
     position: relative;
-    left: 9%;
-    top: 58.5%;
+    left: 7rem;
+    top: 24rem;
     background-color: transparent;
 }
 button:hover {
@@ -63,10 +62,11 @@ a {
     color: white;
 }
 #img {
-    height: 64%;
-    width: 30%;
+    height: 20rem;
+    width: 30rem;
     background-color: bisque;
     position: relative;
-    left: 64%;
+    left: 56rem;
+    top: 5rem;
 }
 </style>

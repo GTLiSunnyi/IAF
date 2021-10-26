@@ -49,40 +49,38 @@ export default {
     -moz-osx-font-smoothing: grayscale;
     text-align: left;
     color: #2c3e50;
-    height: 100%;
-    width: 100%;
 }
 #head {
     position: fixed;
-    height: 12%;
-    width: 100%;
     top: 0;
+    width: 100%;
+    height: 3rem;
     background-color: white;
     z-index: 1;
 }
 #logo {
-    width: 2.6%;
-    height: 100%;
-    position: absolute;
-    left: 3%;
-    top: 5%;
+    width: 2rem;
+    height: 2rem;
+    position: fixed;
+    left: 3rem;
+    top: .7rem;
 }
 #changeLang {
-    width: 4%;
-    height: 70%;
-    position: absolute;
+    width: 4.6rem;
+    height: 2rem;
+    position: fixed;
     border-color: cornflowerblue;
     color: cornflowerblue;
     background-color: white;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
-    border-radius: 5px; /* future proofing */
-    -khtml-border-radius: 5px; /* for old Konqueror browsers */
+    -moz-border-radius: .5rem;
+    -webkit-border-radius: .5rem;
+    border-radius: .5rem; /* future proofing */
+    -khtml-border-radius: .5rem; /* for old Konqueror browsers */
     vertical-align: middle;
     font-weight: 700;
     font-size: 100%;
-    right: 3%;
-    top: 15.5%;
+    right: 3rem;
+    top: .5rem;
 }
 #changeLang:hover {
     cursor: pointer;

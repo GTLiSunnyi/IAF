@@ -1,0 +1,641 @@
+html,
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Arimo, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 16px;
+    color: #333;
+    overflow-x: hidden;
+    background: #FBFBF9;
+}
+
+.wrap {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    list-style: none;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+a,
+a:hover,
+a:active,
+a:visited,
+a:link,
+a:focus {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-tap-highlight-color: transparent;
+    outline: none;
+    text-decoration: none;
+}
+
+a,
+a:hover,
+a:focus {
+    text-decoration: none;
+    -o-transition: all .5s;
+    -moz-transition: all .5s;
+    -webkit-transition: all .5s;
+    -ms-transition: all .5s;
+    transition: all .5s;
+    outline: none;
+}
+
+
+header {
+    background: #f5f5f5;
+    height: 100px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+}
+
+header .logo {
+    padding-top: 33px;
+    margin-left: 2%;
+}
+
+header .rightDiv {
+    margin-right: 2%;
+}
+
+.lang {
+    text-align: center;
+    color: #666;
+    font-size: 16px;
+    display: block;
+    position: relative;
+    margin-top: 2rem;
+    background-color: #ccc;
+    line-height: 2.5rem;
+    width: 6rem;
+    height: 2.5rem;
+    border-radius: 1.25rem;
+    cursor: pointer;
+}
+
+.lang {
+    background: linear-gradient(to right, #1F92E2, #E53585);
+    color: #fff;
+}
+
+
+.first-ping {
+    height: 28rem;
+}
+
+.content-ping {
+    /*border: 1px solid blue;*/
+    height: 100rem;
+}
+
+
+.index-div1 {
+    padding: 9rem 0 6rem;
+    text-align: left;
+    overflow: hidden;
+}
+
+.index-title {
+    font-size: 44px;
+    color: #222222;
+    font-weight: bold;
+    line-height: 66px;
+    margin-top: 9rem;
+    text-align: center;
+}
+
+.apply {
+    width: 12rem;
+    height: 3.6rem;
+    border-radius: 1.8rem;
+    text-align: center;
+    border: none;
+    color: #fff;
+    font-size: 1.4rem;
+    background: linear-gradient(to right, #1F92E2, #E53585);
+    margin: 3rem auto;
+    display: inherit;
+}
+
+.clearfix .logo a img {
+    width: 34%;
+}
+
+/*-------------------------------内容文字-------------------------------*/
+.con-txt {
+    background-image: url(../img/IAF-pic.png);
+    background-position: bottom;
+    background-size: 70%;
+    background-repeat: no-repeat;
+}
+
+.con-title {
+    width: 30rem;
+    height: auto;
+    text-align: left;
+    color: #333;
+    line-height: 1.8rem;
+}
+
+.content-t01 {
+    margin-top: 10rem;
+}
+
+.content-t02 {
+    margin-top: 22rem;
+    margin-left: 60%;
+}
+
+.content-t03 {
+    margin-top: 22rem;
+}
+
+.ct-t {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #232323;
+    line-height: 3rem;
+}
+
+.text_box01 {
+    font-size: 2rem;
+    color: #232323;
+    line-height: 3rem;
+    font-weight: normal;
+    margin-top: 8rem;
+    text-align: center;
+}
+
+.text-p {
+    font-size: 1.2rem;
+    font-weight: normal;
+    color: #333;
+    line-height: 2rem;
+}
+
+.wm {
+    width: 100%;
+    height: 8rem;
+    background: linear-gradient(to right, #1F92E2, #E53585);
+}
+
+.we-mail {
+    color: #fff;
+    line-height: 8rem;
+    font-size: 1.2rem;
+    font-weight: normal;
+    text-align: center;
+}
+
+
+.has-animations .is-revealing {
+    visibility: hidden
+}
+
+body:after {
+    content: '';
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .8);
+    display: none;
+}
+
+body.on-menu:after {
+    display: block;
+}
+
+
+/*------------------------手机端适配--------------------------*/
+@media (min-width:320px) and (max-width:375px) {
+    .con-txt {
+        background-image: none;
+    }
+
+    header {
+        height: 3rem;
+    }
+
+    header .logo {
+        padding-top: 13px;
+        margin-left: 3.2%;
+    }
+
+    .clearfix .logo a img {
+        width: 25%
+    }
+
+    .lang {
+        margin-top: 1rem;
+        font-size: 0.85rem;
+        height: auto;
+        line-height: 1.5rem;
+        padding: 0 0.8rem;
+    }
+
+    .index-title {
+        font-size: 2rem;
+        line-height: 2.8rem;
+        margin-top: 0rem;
+    }
+
+    .text_box01 {
+        font-size: 1.4rem;
+        color: 222;
+        line-height: 1.8rem;
+        font-weight: normal;
+        margin-top: 2rem;
+        margin-left: 0.8rem;
+    }
+
+    .apply {
+        width: 8rem;
+        height: 2.6rem;
+        border-radius: 1.3rem;
+        font-size: 0.8rem;
+        margin-top: 2rem;
+    }
+
+    .clear-pic {
+        position: absolute;
+        top: 52rem;
+        right: -21%;
+        margin-left: 0.8rem;
+    }
+
+    .content-t01 {
+        margin-top: 24rem;
+        margin-left: 3%;
+    }
+
+    .con-title {
+        width: 90%;
+        line-height: 1.8rem;
+        /*text-align: justify;*/
+        margin-top: 4rem;
+        margin-left: 5%
+    }
+
+    .ct-t {
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+
+    .clear-pic-02 {
+        position: absolute;
+        top: 90rem;
+        left: 3%;
+    }
+
+    .content-t02 {
+        margin-top: 6rem;
+        margin-left: 5%;
+    }
+
+    .clear-pic-02 .pic img {
+        width: 97%;
+        height: auto;
+        position: relative;
+        right: 0;
+    }
+
+    .content-ping {
+        height: 66rem;
+    }
+
+
+    .content-t03 {
+        padding-top: 0rem;
+        margin-left: 5%;
+    }
+
+    .clear-pic-03 {
+        position: absolute;
+        top: 130rem;
+        margin-left: 9%;
+    }
+
+    .clear-pic-03>.pic>img {
+        width: 109%;
+    }
+
+    .wm {
+        background-color: #f5f5f5;
+    }
+
+    .we-mail {
+        line-height: 8rem;
+        font-size: 1rem;
+        width: 86%;
+        text-align: center;
+    }
+
+    .first-ping {
+        height: 26rem;
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .index-title {
+        font-size: 1.8rem;
+    }
+}
+
+
+
+@media (min-width:376px) and (max-width:480px) {
+    .con-txt {
+        background-image: none;
+    }
+
+    header {
+        height: 3rem;
+    }
+
+    header .logo {
+        padding-top: 13px;
+        margin-left: 5%;
+    }
+
+    .clearfix .logo a img {
+        width: 25%
+    }
+
+    .lang {
+        margin-top: 1rem;
+        font-size: 0.85rem;
+        height: auto;
+        line-height: 1.5rem;
+        padding: 0 0.8rem;
+    }
+
+    .index-title {
+        font-size: 2rem;
+        line-height: 2.8rem;
+        margin-top: 0rem;
+    }
+
+    .text_box01 {
+        font-size: 1.4rem;
+        color: 222;
+        line-height: 1.8rem;
+        font-weight: normal;
+        margin-top: 2rem;
+        margin-left: 0.8rem;
+    }
+
+    .apply {
+        width: 8rem;
+        height: 2.6rem;
+        border-radius: 1.3rem;
+        font-size: 0.8rem;
+        margin-top: 2rem;
+    }
+
+    .clear-pic {
+        position: absolute;
+        top: 52rem;
+        right: -21%;
+        margin-left: 0.8rem;
+    }
+
+    .content-t01 {
+        margin-top: 24rem;
+        margin-left: 3%;
+    }
+
+    .con-title {
+        width: 94%;
+        line-height: 1.8rem;
+        /*text-align: justify;*/
+        margin-top: 4rem;
+    }
+
+    .ct-t {
+        font-size: 1.5rem;
+    }
+
+    .clear-pic-02 {
+        position: absolute;
+        top: 90rem;
+        left: 3%;
+    }
+
+    .content-t02 {
+        margin-top: 6rem;
+        margin-left: 2%;
+    }
+
+    .clear-pic-02 .pic img {
+        width: 97%;
+        height: auto;
+        position: relative;
+        right: 0;
+    }
+
+    .content-t03 {
+        padding-top: 0rem;
+        margin-left: 3%;
+    }
+
+    .clear-pic-03 {
+        position: absolute;
+        top: 130rem;
+        margin-left: 9%;
+    }
+
+    .clear-pic-03>.pic>img {
+        width: 109%;
+    }
+
+    .wm {
+        background-color: #f5f5f5;
+    }
+
+    .we-mail {
+        width: 86%;
+        text-align: center;
+    }
+
+    .first-ping {
+        height: 30rem;
+    }
+
+    .content-ping {
+        height: 62rem;
+    }
+
+}
+
+@media (min-width:481px) and (max-width:768px) {
+    header {
+        height: 4rem;
+    }
+
+    header .logo {
+        padding-top: 1.2rem;
+        margin-left: 1.4%;
+    }
+
+    header .logo img {
+        width: 60%
+    }
+
+    .lang {
+        margin-top: 1rem;
+        font-size: 0.85rem;
+        height: auto;
+        line-height: 1.5rem;
+        padding: 0 0.8rem;
+    }
+
+    .index-title {
+        font-size: 2rem;
+        line-height: 2.4rem;
+        margin-top: 0rem;
+        margin-left: 0.8rem;
+    }
+
+    .text_box01 {
+        font-size: 1.4rem;
+        color: 222;
+        line-height: 1.8rem;
+        font-weight: normal;
+        margin-top: 5rem;
+        margin-left: 0.8rem;
+    }
+
+    .clear-pic {
+        position: absolute;
+        top: 52rem;
+        right: -21%;
+        margin-left: 0.8rem;
+    }
+
+    .content-t01 {
+        margin-top: 24rem;
+        margin-left: 3%;
+    }
+
+    .con-title {
+        width: 94%;
+        line-height: 1.8rem;
+        text-align: justify;
+        margin-top: 10rem;
+    }
+
+    .content-t02 {
+        margin-left: 3%;
+    }
+
+    .content-t03 {
+        margin-left: 3%;
+    }
+
+    .first-ping {
+        height: 36rem;
+    }
+
+    .content-ping {
+        /*border: 1px solid blue;*/
+        height: 70rem;
+    }
+
+    @media (min-width:768px) and (max-width:1024px) {
+        header {
+            height: 5rem;
+        }
+
+        header .logo {
+            padding-top: 1.2rem;
+            margin-left: 1.4%;
+        }
+
+        header .logo img {
+            width: 60%
+        }
+
+        .lang {
+            margin-top: 1.7rem;
+            font-size: 0.85rem;
+            height: auto;
+            line-height: 1.5rem;
+            padding: 0 0.8rem;
+        }
+
+        .content-t01,
+        .content-t03 {
+            margin-left: 3%;
+        }
+
+        .content-t02 {
+            margin-left: 50%;
+        }
+
+        .first-ping {
+            height: 20rem;
+        }
+    }
+
+    @media (min-width:1024px) and (max-width:1200px) {
+        header {
+            height: 5rem;
+        }
+
+        header .logo {
+            padding-top: 1.2rem;
+            margin-left: 1.4%;
+        }
+
+        header .logo img {
+            width: 60%
+        }
+
+        .lang {
+            margin-top: 1.7rem;
+            font-size: 0.85rem;
+            height: auto;
+            line-height: 1.5rem;
+            padding: 0 0.8rem;
+        }
+
+        .content-t01,
+        .content-t03 {
+            margin-left: 3%;
+        }
+
+        .content-t02 {
+            margin-left: 50%;
+        }
+
+        .con-txt {
+            background-image: url(../img/IAF-pic.png);
+            background-size: 70%;
+            background-repeat: no-repeat;
+        }
+
+        .first-ping {
+            height: 44rem;
+        }
+    }
+}
